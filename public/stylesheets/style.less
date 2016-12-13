@@ -6,7 +6,7 @@
 /* base */
 body {
   background-color: @gray1;
-  font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti !important;
+  font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti, sans-serif !important;
 }
 
 #main {
@@ -574,10 +574,14 @@ a.user_avatar:hover {
   float: right;
   margin-left: 20px;
   font-size: 15px;
-}
 
-.user_action a {
-  text-decoration: none;
+  a {
+    text-decoration: none;
+  }
+
+  .up-count {
+    color: gray;
+  }
 }
 
 .reply_content {
@@ -1284,4 +1288,8 @@ textarea.editor {
 .about-friend-links img {
   width: 250px;
   height: 60px;
+}
+
+.sponsor_outlink:hover {
+  text-decoration: none;
 }

@@ -10,6 +10,9 @@
       <div class="topic_content">
         <%- markdown(multiline(function () {
 /*
+
+以下 api 路径均以 **https://cnodejs.org/api/v1** 为前缀
+
 ### 主题
 
 #### get /topics 主题首页
@@ -37,6 +40,22 @@
 接收 post 参数
 
 * accesstoken `String` 用户的 accessToken
+* title `String` 标题
+* tab `String` 目前有 `ask` `share` `job`
+* content `String` 主体内容
+
+返回值示例
+
+```js
+{success: true, topic_id: '5433d5e4e737cbe96dcef312'}
+```
+
+#### post /topics/update 编辑主题
+
+接收 post 参数
+
+* accesstoken `String` 用户的 accessToken
+* topic_id `String` 主题id
 * title `String` 标题
 * tab `String` 目前有 `ask` `share` `job`
 * content `String` 主体内容
