@@ -1,4 +1,4 @@
-Nodeclub
+Fabclub
 =
 
 [![build status][travis-image]][travis-url]
@@ -16,6 +16,8 @@ Nodeclub
 [node-url]: http://nodejs.org/download/
 
 ## 介绍
+Fabclub 是Fablab Chengdu发起的，基于Nodeclub 程序的线上社区项目。   
+以下介绍来自原Nodeclub项目。   
 
 Nodeclub 是使用 **Node.js** 和 **MongoDB** 开发的社区系统，界面优雅，功能丰富，小巧迅速，
 已在Node.js 中文技术社区 [CNode(http://cnodejs.org)](http://cnodejs.org) 得到应用，但你完全可以用它搭建自己的社区。
